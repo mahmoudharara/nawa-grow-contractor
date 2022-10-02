@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "\Contractor\\": "src/"
+            "Contractor\\": "src/"
         },
         "files": [
             "src//Base/Helpers/Constants.php",
@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "\Contractor\\ContractorServiceProvider.php"
+                "Contractor\\ContractorServiceProvider.php"
             ]
         }
     },
